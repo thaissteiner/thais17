@@ -1,0 +1,127 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo - O Universo Épico</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(to bottom, #1a3c34, #0a0a0a);
+            text-align: center;
+            padding: 50px 20px;
+            border-bottom: 2px solid #00ff00;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #00ff00;
+            text-shadow: 0 0 10px #00ff00;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #cccccc;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .video-section, .images-section {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .video-section h2, .images-section h2 {
+            font-size: 2em;
+            color: #00ff00;
+            text-shadow: 0 0 5px #00ff00;
+            margin-bottom: 20px;
+        }
+        .video-section iframe {
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+        }
+        .images-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .image-card {
+            flex: 1;
+            min-width: 300px;
+            max-width: 350px;
+            text-align: center;
+        }
+        .image-card img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+            transition: transform 0.3s;
+        }
+        .image-card img:hover {
+            transform: scale(1.05);
+        }
+        .image-card p {
+            font-size: 1em;
+            color: #cccccc;
+            margin: 10px 0 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a3c34;
+            color: #cccccc;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Halo: A Saga do Master Chief</h1>
+        <p>Explore o universo épico de Halo, com batalhas intensas, gráficos realistas e a icônica trilha sonora. Junte-se ao Master Chief na luta contra os Covenant!</p>
+    </header>
+    <div class="container">
+        <div class="video-section">
+            <h2>Trailer de Halo Infinite</h2>
+            <iframe src="https://www.youtube.com/embed/PyMlV5_HRWk" title="Halo Infinite Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><i>Assista ao trailer oficial com a trilha sonora épica de Halo!</i></p>
+        </div>
+        <div class="images-section">
+            <h2>Cenas Realistas de Halo</h2>
+            <div class="image-card">
+                <img src="https://p2.trrsf.com.br/image/fget/cf/540/960/smart/images.terra.com/2021/07/14/apps.33894.14330850369313893.517eea50-84ac-4596-b4e2-3762c9d93de7.jfif" alt="Master Chief em Halo Infinite">
+                <p>Master Chief, o herói icônico de Halo.</p>
+            </div>
+            <div class="image-card">
+                <img src="https://windowsclub.com.br/wp-content/uploads/2021/06/halo-infinite-cortana.jpg" alt="Zeta Halo em Halo Infinite">
+                <p>Zeta Halo, o vasto mundo aberto de Halo Infinite.</p>
+            </div>
+            <div class="image-card">
+                <img src="https://cdn.ome.lt/rNMCuw-JnxKi1nA5FeHs_3nSfY4=/770x0/smart/uploads/conteudo/fotos/Halo_Infinite_piloto.jpg" alt="Warthog em Halo Infinite">
+                <p>O Warthog, veículo clássico de Halo.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Halo Studios. Todos os direitos reservados. Imagens e vídeos pertencem à Xbox Game Studios.</p>
+    </footer>
+</body>
+</html>
